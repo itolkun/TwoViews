@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
@@ -14,15 +14,15 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TwoViews" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="34S-y7-Fgd" userLabel="ViewOne">
-                                <rect key="frame" x="20" y="20" width="280" height="251.5"/>
+                                <rect key="frame" x="20" y="67.000000000000028" width="388" height="391.66666666666674"/>
                                 <color key="backgroundColor" systemColor="systemMintColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VEN-V8-FV2" userLabel="ViewTwo">
-                                <rect key="frame" x="20" y="293" width="280" height="255"/>
+                                <rect key="frame" x="20" y="480.66666666666674" width="388" height="391.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                         </subviews>
@@ -37,8 +37,8 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="34S-y7-Fgd" secondAttribute="trailing" constant="20" id="Uip-TT-cPi"/>
                             <constraint firstItem="34S-y7-Fgd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Wgr-YK-IJ0"/>
                             <constraint firstItem="VEN-V8-FV2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bP1-Mp-drV"/>
-                            <constraint firstItem="VEN-V8-FV2" firstAttribute="height" secondItem="34S-y7-Fgd" secondAttribute="height" multiplier="1.0107" id="dzk-ZW-BP3"/>
                             <constraint firstItem="VEN-V8-FV2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hbx-G1-gEg"/>
+                            <constraint firstItem="VEN-V8-FV2" firstAttribute="height" secondItem="34S-y7-Fgd" secondAttribute="height" id="qit-fV-X5M"/>
                             <constraint firstItem="34S-y7-Fgd" firstAttribute="width" secondItem="VEN-V8-FV2" secondAttribute="width" id="rz0-yV-apc"/>
                         </constraints>
                     </view>
